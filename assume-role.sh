@@ -14,7 +14,7 @@ fi
 # Variables
 ROLE_ARN="arn:aws:iam::985539781710:role/infraUser-role" # Replace with your role ARN
 SESSION_NAME="MySession"                                     # A unique session name
-DURATION=28800                                              # Session duration in seconds (max 12 hours for CLI)
+DURATION=2880                                              # Session duration in seconds (max 12 hours for CLI)
 
 # Assume the role
 echo "Assuming role: $ROLE_ARN..."
